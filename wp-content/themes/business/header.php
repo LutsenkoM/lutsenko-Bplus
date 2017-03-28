@@ -22,22 +22,22 @@
 <body <?php body_class(); ?>>
 	<section class="welcome-section">
 
-		<header id="masthead" class="site-header" role="banner">
-			<div class="container d-flex justify-content-between align-items-center">
-				<div class="site-logo d-flex align-items-center">
-					<?php the_custom_logo( array ('class'=> 'img-fluid')); ?>
-					<i class="fa fa-phone fa-2x" aria-hidden="true"></i><p class="phone-num"><?php echo get_theme_mod('phone_header'); ?></p>
-				</div>
-				<button id="button-menu">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<nav class="nav-wrapp">
-					<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu', 'menu_class' => 'd-flex main-nav', 'container' => 'ul'  ) ); ?>
-				</nav>
-			</div>
-		</header>
+<!--		<header id="masthead" class="site-header" role="banner">-->
+<!--			<div class="container d-flex justify-content-between align-items-center">-->
+<!--				<div class="site-logo d-flex align-items-center">-->
+<!--					--><?php //the_custom_logo( array ('class'=> 'img-fluid')); ?>
+<!--					<i class="fa fa-phone fa-2x" aria-hidden="true"></i><p class="phone-num">--><?php //echo get_theme_mod('phone_header'); ?><!--</p>-->
+<!--				</div>-->
+<!--				<button id="button-menu">-->
+<!--					<span class="icon-bar"></span>-->
+<!--					<span class="icon-bar"></span>-->
+<!--					<span class="icon-bar"></span>-->
+<!--				</button>-->
+<!--				<nav class="nav-wrapp">-->
+<!--					--><?php //wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu', 'menu_class' => 'd-flex main-nav', 'container' => 'ul'  ) ); ?>
+<!--				</nav>-->
+<!--			</div>-->
+<!--		</header>-->
 
 		<div class="slider-main container">
 			<?php
