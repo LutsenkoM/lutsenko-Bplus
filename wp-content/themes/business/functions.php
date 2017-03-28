@@ -247,6 +247,7 @@ function business_plus_scripts() {
     wp_enqueue_style( 'business-plus-style', get_stylesheet_uri() );
 
     wp_enqueue_script('jquery-3.2.0.min.js', get_template_directory_uri() . '/js/lib/jquery-3.2.0.min.js');
+    wp_enqueue_script('bootstrap.min.js', get_template_directory_uri() . '/js/lib/tether.min.js');
     wp_enqueue_script('bootstrap.min.js', get_template_directory_uri() . '/js/lib/bootstrap.min.js');
     wp_enqueue_script('slick.min.js', get_template_directory_uri() . '/js/lib/slick.min.js');
     wp_enqueue_script('custom.js', get_template_directory_uri() . '/js/custom.js');
